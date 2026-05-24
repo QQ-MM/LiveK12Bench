@@ -1,5 +1,10 @@
 # LiveK12Bench
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![HuggingFace Dataset](https://img.shields.io/badge/🤗%20Dataset-Shawn--wxh%2Flivek12bench-yellow)](https://huggingface.co/datasets/Shawn-wxh/livek12bench)
+[![Paper](https://img.shields.io/badge/Paper-coming%20soon-lightgrey.svg)](#citation)
+
 > **Have Large Multimodal Models Truly Conquered High School-level Examinations?**
 
 Official code release for the paper *LiveK12Bench: Have Large Multimodal
