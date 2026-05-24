@@ -371,9 +371,19 @@ schema and the new English schema transparently.
 
 ## Citation
 
-If you use LiveK12Bench, please cite it via the metadata in
-[`CITATION.cff`](CITATION.cff) (or use GitHub's "Cite this repository"
-button).
+If LiveK12Bench is useful to you, please consider citing it:
+
+```bibtex
+@misc{livek12bench2026,
+  title  = {LiveK12Bench},
+  author = {Wang, Xiaohan and Yin, Mingze and Zhao, Yilin and Sinbadliu and Li, Dian},
+  year   = {2026},
+  url    = {https://github.com/QQ-MM/LiveK12Bench}
+}
+```
+
+(GitHub's "Cite this repository" sidebar button is also available; it
+reads from [`CITATION.cff`](CITATION.cff).)
 
 ---
 
