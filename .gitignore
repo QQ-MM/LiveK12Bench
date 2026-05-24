@@ -1,0 +1,54 @@
+# ---------------------------------------------------------------------------
+# data/ — exam-paper inputs
+#   Default `paper_dir` in evaluate/constants.py is data/chinese_k12/bio.
+#   We commit one tiny smoke-test fixture so contributors can verify their
+#   environment without HuggingFace access; everything else under data/ is
+#   user-supplied and never committed.
+# ---------------------------------------------------------------------------
+data/*
+!data/chinese_k12/
+!data/ocr_input/
+data/chinese_k12/*
+!data/chinese_k12/bio/
+data/chinese_k12/bio/*
+!data/chinese_k12/bio/smoke_test_paper.json
+data/ocr_input/*
+!data/ocr_input/smoke_test_paper.md
+
+# Parsed question JSON output by analyze/analyze.py (user-supplied)
+analyze/analyzed_json/
+
+# ---------------------------------------------------------------------------
+# predictions/ — solver outputs (per-model JSON files)
+# metrics/     — aggregated Excel workbooks
+#   We keep the empty directories around with a .gitkeep so users see where
+#   their outputs land; everything else is local-only.
+# ---------------------------------------------------------------------------
+predictions/*
+!predictions/.gitkeep
+metrics/*
+!metrics/.gitkeep
+
+# Raw OCR markdown that users drop in (not committed by default)
+*.md
+!README.md
+!docs/*.md
+!data/ocr_input/smoke_test_paper.md
+
+# ---------------------------------------------------------------------------
+# Misc
+# ---------------------------------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+.env
+.env.*
+
+.DS_Store
+Thumbs.db
+
+.idea/
+.vscode/
+*.swp

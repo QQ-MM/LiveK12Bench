@@ -1,0 +1,16 @@
+# LLM dispatching
+litellm>=1.50.0
+
+# Image / multimodal
+pillow>=10.0
+
+# Data handling
+pandas>=2.0
+openpyxl>=3.1
+numpy>=1.24
+
+# Dataset access (HuggingFace Hub)
+datasets>=2.18
+
+# CLI / progress
+tqdm>=4.65

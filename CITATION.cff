@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "LiveK12Bench"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: "Wang"
+    given-names: "Xiaohan"
+  - family-names: "Yin"
+    given-names: "Mingze"
+  - family-names: "Zhao"
+    given-names: "Yilin"
+  - name: "Sinbadliu"
+  - family-names: "Li"
+    given-names: "Dian"
+abstract: >-
+  LiveK12Bench is an evaluation benchmark for K12 exam-style reasoning
+  spanning math, physics, chemistry, and biology, sourced from real
+  Chinese K12 exam papers and distributed in both Chinese and English.
+license: Apache-2.0
