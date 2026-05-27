@@ -3,12 +3,12 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![HuggingFace Dataset](https://img.shields.io/badge/🤗%20Dataset-Shawn--wxh%2Flivek12bench-yellow)](https://huggingface.co/datasets/Shawn-wxh/livek12bench)
-[![Paper](https://img.shields.io/badge/Paper-coming%20soon-lightgrey.svg)](#citation)
+[![arXiv](https://img.shields.io/badge/arXiv-2605.26781-b31b1b.svg)](https://arxiv.org/abs/2605.26781)
 
 > **Have Large Multimodal Models Truly Conquered High School-level Examinations?**
 
 Official code release for the paper *LiveK12Bench: Have Large Multimodal
-Models Truly Conquered High School-level Examinations?* ([HuggingFace
+Models Truly Conquered High School-level Examinations?* ([Arxiv](https://arxiv.org/abs/2605.26781), [HuggingFace
 dataset](https://huggingface.co/datasets/Shawn-wxh/livek12bench)).
 
 ## TL;DR
@@ -384,6 +384,13 @@ If LiveK12Bench is useful to you, please consider citing it:
   author = {Wang, Xiaohan and Yin, Mingze and Zhao, Yilin and Sinbadliu and Li, Dian},
   year   = {2026},
   url    = {https://github.com/QQ-MM/LiveK12Bench}
+}
+@misc{wang2026livek12bench,
+      title={LiveK12Bench: Have Large Multimodal Models Truly Conquered High School-level Examinations?}, 
+      author={Xiaohan Wang and Mingze Yin and Yilin Zhao and Gang Liu and Dian Li},
+      year={2026},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2605.26781}, 
 }
 ```
 
